@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    margin-top: 15px;
+}
+#container{
+    margin-top: 20px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 6px;
+    background-color: black;
+   
+}
+.divContainer{
+    margin-top: 15px;
+    align-items: center;
+    width: 95%;
+   text-align: center;
+   margin-left: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 10px;
+    background-color: #84838f;
+    
+}
+.image{
+    padding: 10px;
+    margin-top: 10px;
+    width: 80%;
+    border-radius: 15px;
+}
+#search{
+    font-size: larger;
+    width: 200px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+   background-color: antiquewhite;
+}
+.name{
+    color: #46e810;
+    font-size: 30px;
+}
